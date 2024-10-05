@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+     <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+	
+	<div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">E <span class="letter">M</span>echanic <span class="letter">F</span>inder</h2>
+                </div>
+
+                <div class="menu">
+                    <ul class="ul">
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="Service.html">SERVICE</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+	
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="MechanicSignUp" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" required>
+            </div>
+            <div class="form-group">
+                <label for="qualification">Qualification:</label>
+                <input type="text" id="qualification" name="qualification" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+            <h2>Already Registered... <a href="MechanicLogin.html">Login Here</a></h2>
+        </form>
+    </div>
+</body>
+</html>
